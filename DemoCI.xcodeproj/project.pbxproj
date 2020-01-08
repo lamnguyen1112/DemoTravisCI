@@ -15,6 +15,7 @@
 		0610B14923C58FF300988646 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0610B14723C58FF300988646 /* LaunchScreen.storyboard */; };
 		0610B15423C58FF300988646 /* DemoCITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0610B15323C58FF300988646 /* DemoCITests.swift */; };
 		0610B15F23C58FF400988646 /* DemoCIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0610B15E23C58FF400988646 /* DemoCIUITests.swift */; };
+		0610B17723C5CF7900988646 /* Home2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0610B17623C5CF7900988646 /* Home2ViewController.swift */; };
 		5B0D821B0D992BD15D6389F9 /* Pods_DemoCITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A5FB15E0E8A39A543ED2D1 /* Pods_DemoCITests.framework */; };
 		A0C6C698B6F02DE0DE2E156C /* Pods_DemoCI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B535B25A6D1A58008906D655 /* Pods_DemoCI.framework */; };
 		D64D1E91C9F6578D1E9C163F /* Pods_DemoCI_DemoCIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2E5D38F930F35D4F1AF24FF /* Pods_DemoCI_DemoCIUITests.framework */; };
@@ -53,6 +54,7 @@
 		0610B15A23C58FF400988646 /* DemoCIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoCIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0610B15E23C58FF400988646 /* DemoCIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoCIUITests.swift; sourceTree = "<group>"; };
 		0610B16023C58FF400988646 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0610B17623C5CF7900988646 /* Home2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home2ViewController.swift; sourceTree = "<group>"; };
 		17B4876BAB5180FADCC0B073 /* Pods-DemoCI-DemoCIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoCI-DemoCIUITests.debug.xcconfig"; path = "Target Support Files/Pods-DemoCI-DemoCIUITests/Pods-DemoCI-DemoCIUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		4FA015F613EB4804B7E10766 /* Pods-DemoCITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoCITests.release.xcconfig"; path = "Target Support Files/Pods-DemoCITests/Pods-DemoCITests.release.xcconfig"; sourceTree = "<group>"; };
 		5B378C09B7E2839935B1CFBB /* Pods-DemoCI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoCI.debug.xcconfig"; path = "Target Support Files/Pods-DemoCI/Pods-DemoCI.debug.xcconfig"; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 				0610B14523C58FF300988646 /* Assets.xcassets */,
 				0610B14723C58FF300988646 /* LaunchScreen.storyboard */,
 				0610B14A23C58FF300988646 /* Info.plist */,
+				0610B17623C5CF7900988646 /* Home2ViewController.swift */,
 			);
 			path = DemoCI;
 			sourceTree = "<group>";
@@ -373,6 +376,7 @@
 			files = (
 				0610B14123C58FEE00988646 /* ViewController.swift in Sources */,
 				0610B13D23C58FEE00988646 /* AppDelegate.swift in Sources */,
+				0610B17723C5CF7900988646 /* Home2ViewController.swift in Sources */,
 				0610B13F23C58FEE00988646 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
