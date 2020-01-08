@@ -1,5 +1,8 @@
 language: objective-c
 osx_image: xcode11.3
+cache:
+  - bundler
+  - cocoapods
 xcode_workspace: DemoCI.xcworkspace
 xcode_scheme: DemoCI
 xcode_destination: platform=iOS Simulator,OS=13.3,name=iPhone 8
